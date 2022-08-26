@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import Infra from './pages/Infra';
 import Kpi from './pages/Kpi';
 import Users from './pages/Users';
-
+import Footer from './components/Footer';
 
 export function App() {
   return (
@@ -25,6 +25,7 @@ export function App() {
           <Route path='/About' element={ <About /> } />
           <Route path='/Contact' element={ <Contact /> } />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
