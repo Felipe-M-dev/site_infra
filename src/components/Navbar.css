@@ -20,6 +20,25 @@
     background: none;
 }
 
+.active-user {
+    display: flex;
+    text-decoration: none;
+    justify-content: end;
+    margin-right: 5px;
+    color: white;
+    align-items: center;
+    margin-left: 140vh;
+}
+
+.active-user p {
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+/* .icon-user {
+    margin-left: 10px;
+} */
+
 .nav-menu {
     background-color: #060b26;
     width: 250px;

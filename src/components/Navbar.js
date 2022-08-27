@@ -19,6 +19,10 @@ function Navbar() {
                 <Link to="#" className='menu-bars'>
                     <FaIcons.FaBars onClick={ showSidebar }/>
                 </Link>
+                <Link to="/Users" className='active-user'>
+                    <FaIcons.FaUserAlt className='icon-user'/>
+                    <p>feipe.martinez@egt.cl</p>
+                </Link>
                 <Link to='/' className="img-header">
                     <img src={ logo } alt="Header Logo"/>
                 </Link>
